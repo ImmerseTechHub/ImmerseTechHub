@@ -1,0 +1,58 @@
+
+/* raleway.css */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Raleway;
+}
+
+#container {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 15px;
+    width: 16%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#FAB388;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+input  {
+    border-radius: 7px;
+    border: hidden;
+    height: 30px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px; /* Espacio entre el label y el input */
+}
+textarea {
+    border-radius: 7px;
+    border: hidden;
+    height: 60px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px; /* Espacio entre el label y el input */
+}
+.boton {
+    border-radius: 7px;
+    border: hidden;
+    width: 100px;
+    height: 50px;
+    margin-left: 70%;
+}

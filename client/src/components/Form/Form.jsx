@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import './Form.css';
+
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -15,9 +17,9 @@ const Form = () => {
   };
 
   return (
-    <form>
-      <div>
-        <label htmlFor="nombre">Nombre:</label>
+    <form id="container">
+      <div className="name" >
+      <label htmlFor="nombre">Nombre</label>&nbsp;
         <input
           type="text"
           id="nombre"
@@ -27,8 +29,8 @@ const Form = () => {
           required
         />
       </div>
-      <div>
-        <label htmlFor="apellido">Apellido:</label>
+      <div className='surname'>
+        <label htmlFor="apellido">Apellido</label>&nbsp;
         <input
           type="text"
           id="apellido"
@@ -38,8 +40,8 @@ const Form = () => {
           required
         />
       </div>
-      <div>
-        <label htmlFor="email">Email:</label>
+      <div className='mail'>
+        <label htmlFor="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input
           type="email"
           id="email"
@@ -49,8 +51,8 @@ const Form = () => {
           required
         />
       </div>
-      <div>
-        <label htmlFor="movil">Móvil:</label>
+      <div className='phone'>
+        <label htmlFor="movil">Móvil</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input
           type="tel"
           id="movil"
@@ -60,8 +62,8 @@ const Form = () => {
           required
         />
       </div>
-      <div>
-        <label htmlFor="mensaje">Mensaje:</label>
+      <div className='message'>
+        <label htmlFor="mensaje">Mensaje</label>&nbsp;
         <textarea
           id="mensaje"
           name="mensaje"
@@ -69,8 +71,8 @@ const Form = () => {
           onChange={handleChange}
           required
         />
-      </div>
-      <button type="submit" style={{ backgroundColor: 'orange', color: 'white' }}>
+      </div >
+      <button className='boton' type="submit" style={{ backgroundColor: '#ff914d', color: 'white' }}>
         Enviar
       </button>
     </form>
