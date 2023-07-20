@@ -1,0 +1,27 @@
+.main-home-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.main-home-card img {
+    height: 13rem;
+    width: 10rem;
+    border: #842C1C solid 0.1rem;
+    border-radius: 1.5rem;
+}
+
+.main-home-card h4 {
+    text-transform: lowercase;
+}
+
+.main-home-card h4::first-letter{
+    text-transform: uppercase;
+}
+
+.main-home-card p {
+    text-transform: uppercase;
+}
