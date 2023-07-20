@@ -34,3 +34,8 @@
     display: grid;
     grid-template-columns: 50% 50%;
 }
+
+.main-link-style {
+    text-decoration: none;
+    color: black;
+}

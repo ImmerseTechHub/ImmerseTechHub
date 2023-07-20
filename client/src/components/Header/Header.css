@@ -1,13 +1,11 @@
 header{
 width: 100%;
-position: absolute;
 background-image: url('../../assets/empty-background-header.png'); 
 background-size:100%;
 background-repeat: no-repeat;
 }
 
 #elements-container{
-    margin-top: 5rem;
   display: flex;  
   flex-direction: row;
   justify-content: space-between;

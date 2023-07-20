@@ -3,12 +3,14 @@ import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import Router from './applications/Router';
 import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <BrowserRouter>
-      <Router />
-      <Footer />
+        <Header/>
+        <Router />
+        <Footer />
     </BrowserRouter>
   );
 }
