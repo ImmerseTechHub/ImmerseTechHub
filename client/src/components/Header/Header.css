@@ -1,0 +1,63 @@
+header{
+width: 100%;
+background-image: url('../../assets/empty-background-header.png'); 
+background-size:100%;
+background-repeat: no-repeat;
+}
+
+#elements-container{
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+.div-text{
+display: flex;  
+flex-direction:row;
+align-items: center;
+gap: 1rem;
+}
+.titles{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+margin-top: 50px;
+}
+.div-logo{
+width:35%;
+border-radius: 55%;
+}
+
+h1{
+    font-size: 16px;
+}
+h2{
+    font-size: 12px;
+    background-color: #d9d9d9bd;
+    border-radius: 5px;
+    color: black;
+}
+
+.div-team-logo{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+gap: 0.5rem;
+
+  
+}
+
+.div-team-logo p{
+font-size: 12px;
+color: white;
+
+
+}
+
+.div-team-logo img{
+    width: 20%;
+}
+

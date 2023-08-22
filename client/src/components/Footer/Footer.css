@@ -1,0 +1,21 @@
+.footer-container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+.footer-icons-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-text-container {
+    color: white;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,41 @@
+.main-home-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.main-info {
+    text-align: center;
+}
+
+.main-home-card img {
+    height: 11rem;
+    width: 10rem;
+    border: #842C1C solid 0.1rem;
+    border-radius: 1.5rem;
+}
+
+.main-home-card h4 {
+    text-transform: lowercase;
+}
+
+.main-home-card h4::first-letter{
+    text-transform: uppercase;
+}
+
+.main-home-card p {
+    text-transform: uppercase;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main-link-style {
+    text-decoration: none;
+    color: black;
+}
